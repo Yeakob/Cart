@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Watch Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- Product Section -->
+  <div class="product-container rounded-sm shadow-lg rounded-lg">
+    <div class="product-image rounded-sm">
+      <img class="rounded-md" id="main-image" src="images/black.jpg" alt="Smart Watch">
+    </div>
+    <div class="product-details px-14">
+      <h1 class="text-4xl font-bold text-slate-700">Classy Modern Smart Watch</h1>
+      <div class="flex flex-row w-[11rem] justify-between items-center py-2"><svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.4633 5.75627C15.374 5.48702 15.1438 5.28827 14.8625 5.24627L14.8588 5.24552L10.5845 4.62077L8.67275 0.74777C8.53475 0.51602 8.285 0.36377 8 0.36377C7.715 0.36377 7.466 0.51602 7.3295 0.74402L7.32725 0.74777L5.4155 4.62077L1.14125 5.24552C0.776 5.30027 0.5 5.61152 0.5 5.98802C0.5 6.19877 0.587 6.38852 0.7265 6.52502L3.8195 9.53777L3.08975 13.7925C3.083 13.8308 3.07925 13.8743 3.07925 13.9193C3.07925 14.3333 3.41525 14.6693 3.82925 14.6693C3.95675 14.6693 4.0775 14.637 4.1825 14.5808L4.17875 14.583L8.00075 12.5723L11.8228 14.583C11.924 14.637 12.044 14.6693 12.1723 14.6693C12.5863 14.6693 12.9223 14.3333 12.9223 13.9193C12.9223 13.8743 12.9185 13.8308 12.911 13.788L12.9118 13.7925L12.182 9.53777L15.275 6.52502C15.4145 6.38852 15.5015 6.19877 15.5015 5.98802C15.5015 5.90552 15.488 5.82527 15.4633 5.75102L15.4648 5.75627H15.4633Z" fill="#FFD200"/>
+        </svg>
+        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.4633 5.75627C15.374 5.48702 15.1438 5.28827 14.8625 5.24627L14.8588 5.24552L10.5845 4.62077L8.67275 0.74777C8.53475 0.51602 8.285 0.36377 8 0.36377C7.715 0.36377 7.466 0.51602 7.3295 0.74402L7.32725 0.74777L5.4155 4.62077L1.14125 5.24552C0.776 5.30027 0.5 5.61152 0.5 5.98802C0.5 6.19877 0.587 6.38852 0.7265 6.52502L3.8195 9.53777L3.08975 13.7925C3.083 13.8308 3.07925 13.8743 3.07925 13.9193C3.07925 14.3333 3.41525 14.6693 3.82925 14.6693C3.95675 14.6693 4.0775 14.637 4.1825 14.5808L4.17875 14.583L8.00075 12.5723L11.8228 14.583C11.924 14.637 12.044 14.6693 12.1723 14.6693C12.5863 14.6693 12.9223 14.3333 12.9223 13.9193C12.9223 13.8743 12.9185 13.8308 12.911 13.788L12.9118 13.7925L12.182 9.53777L15.275 6.52502C15.4145 6.38852 15.5015 6.19877 15.5015 5.98802C15.5015 5.90552 15.488 5.82527 15.4633 5.75102L15.4648 5.75627H15.4633Z" fill="#FFD200"/>
+          </svg>
+          <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.4633 5.75627C15.374 5.48702 15.1438 5.28827 14.8625 5.24627L14.8588 5.24552L10.5845 4.62077L8.67275 0.74777C8.53475 0.51602 8.285 0.36377 8 0.36377C7.715 0.36377 7.466 0.51602 7.3295 0.74402L7.32725 0.74777L5.4155 4.62077L1.14125 5.24552C0.776 5.30027 0.5 5.61152 0.5 5.98802C0.5 6.19877 0.587 6.38852 0.7265 6.52502L3.8195 9.53777L3.08975 13.7925C3.083 13.8308 3.07925 13.8743 3.07925 13.9193C3.07925 14.3333 3.41525 14.6693 3.82925 14.6693C3.95675 14.6693 4.0775 14.637 4.1825 14.5808L4.17875 14.583L8.00075 12.5723L11.8228 14.583C11.924 14.637 12.044 14.6693 12.1723 14.6693C12.5863 14.6693 12.9223 14.3333 12.9223 13.9193C12.9223 13.8743 12.9185 13.8308 12.911 13.788L12.9118 13.7925L12.182 9.53777L15.275 6.52502C15.4145 6.38852 15.5015 6.19877 15.5015 5.98802C15.5015 5.90552 15.488 5.82527 15.4633 5.75102L15.4648 5.75627H15.4633Z" fill="#FFD200"/>
+            </svg>
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.982 5.87254C14.9377 5.73829 14.8222 5.63854 14.6812 5.61754H14.679L10.2097 4.96429L8.22373 0.941293C8.18248 0.707293 8.03623 0.514543 7.83598 0.411043L7.83223 0.408793C7.73548 0.360043 7.62148 0.331543 7.50073 0.331543C7.20748 0.331543 6.95398 0.499543 6.83023 0.744793L6.82798 0.749293L4.91623 4.62154L0.641982 5.24629C0.276732 5.30104 0.000732422 5.61229 0.000732422 5.98879C0.000732422 6.19954 0.0877324 6.38929 0.227232 6.52579L3.32023 9.53854L2.59048 13.7933C2.58373 13.8315 2.57998 13.875 2.57998 13.92C2.57998 14.334 2.91598 14.67 3.32998 14.67C3.45748 14.67 3.57823 14.6378 3.68323 14.5815L3.67948 14.5838L7.85098 12.39C7.92448 12.348 7.98673 12.2963 8.03923 12.2363L8.03998 12.2355L11.8732 14.2515C11.9235 14.2785 11.9842 14.2943 12.048 14.2943C12.255 14.2943 12.423 14.1263 12.423 13.9193C12.423 13.8968 12.4207 13.875 12.417 13.854V13.8563L11.6535 9.40654L14.8867 6.25654C14.9565 6.18829 15 6.09304 15 5.98804C15 5.94679 14.9932 5.90704 14.9812 5.87029L14.982 5.87329V5.87254ZM10.9882 9.00679C10.9177 9.07504 10.8742 9.17104 10.8742 9.27604C10.8742 9.29779 10.8765 9.31954 10.8795 9.34054V9.33829L11.5477 13.233L8.18998 11.4668L7.82323 11.0078L7.49923 2.77429L7.68373 1.55254L9.62398 5.47129C9.67798 5.58004 9.78148 5.65804 9.90373 5.67604H9.90598L13.8187 6.24754L10.9882 9.00679Z" fill="#FFD200"/>
+              </svg>
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.982 5.87254C14.9377 5.73829 14.8222 5.63854 14.6812 5.61754H14.679L10.2097 4.96429L8.22373 0.941293C8.18248 0.707293 8.03623 0.514543 7.83598 0.411043L7.83223 0.408793C7.73548 0.360043 7.62148 0.331543 7.50073 0.331543C7.20748 0.331543 6.95398 0.499543 6.83023 0.744793L6.82798 0.749293L4.91623 4.62154L0.641982 5.24629C0.276732 5.30104 0.000732422 5.61229 0.000732422 5.98879C0.000732422 6.19954 0.0877324 6.38929 0.227232 6.52579L3.32023 9.53854L2.59048 13.7933C2.58373 13.8315 2.57998 13.875 2.57998 13.92C2.57998 14.334 2.91598 14.67 3.32998 14.67C3.45748 14.67 3.57823 14.6378 3.68323 14.5815L3.67948 14.5838L7.85098 12.39C7.92448 12.348 7.98673 12.2963 8.03923 12.2363L8.03998 12.2355L11.8732 14.2515C11.9235 14.2785 11.9842 14.2943 12.048 14.2943C12.255 14.2943 12.423 14.1263 12.423 13.9193C12.423 13.8968 12.4207 13.875 12.417 13.854V13.8563L11.6535 9.40654L14.8867 6.25654C14.9565 6.18829 15 6.09304 15 5.98804C15 5.94679 14.9932 5.90704 14.9812 5.87029L14.982 5.87329V5.87254ZM10.9882 9.00679C10.9177 9.07504 10.8742 9.17104 10.8742 9.27604C10.8742 9.29779 10.8765 9.31954 10.8795 9.34054V9.33829L11.5477 13.233L8.18998 11.4668L7.82323 11.0078L7.49923 2.77429L7.68373 1.55254L9.62398 5.47129C9.67798 5.58004 9.78148 5.65804 9.90373 5.67604H9.90598L13.8187 6.24754L10.9882 9.00679Z" fill="#FFD200"/>
+                </svg>
+                
+                <div class="text-sm text-slate-500">( 2 Reviews )</div>
+        </div>
+      <div class="flex flex-row items-center py-2"><div class="text-slate-400 line-through pr-2">$99</div> <span class="text-xl no-underline font-bold text-[#6576FF]" id="price">$79.00</span></div>
+      <p class="text-slate-600">I must explain to you how all this mistaken idea of denoun cing ple praising pain was born and I will give you a complete account of the system, and expound the actual teaching.</p>
+      <div class="flex flex-row py-2">
+        <div class="flex flex-col pr-4">
+          <div class="text-sm text-[#8091A7]">Type</div>
+          <div class="font-semibold ">Watch</div>
+        </div>
+        <div class="px-4">
+          <div class="text-sm text-[#8091A7]">Model Number</div>
+          <div class="font-semibold">Forerunner 290XT</div>
+        </div>
+      </div>
+      
+      <!-- Band Color Selection -->
+      <div class="colors">
+        <span class="font-bold text-slate-700">Band Color:</span></br>
+        <div class="pt-2 w-[7rem] flex flex-row justify-between">
+          <button class="color-btn" data-color="purple" data-image="images/image.jpg"><div  class=" h-[1rem] w-[1rem] rounded-full bg-purple-400"></div></button>
+          <button class="color-btn" data-color="blue" data-image="images/blue.jpg"><div  class=" h-[1rem] w-[1rem] rounded-full bg-blue-400"></div></button>
+          <button class="color-btn" data-color="black" data-image="images/black.jpg"><div  class=" h-[1rem] w-[1rem] rounded-full bg-slate-800"></div></button>
+          <button class="color-btn" data-color="cyan" data-image="images/cyan.jpg"><div  class=" h-[1rem] w-[1rem] rounded-full bg-cyan-400"></div></button>
+        </div>
+        
+      </div>
+      
+      <!-- Wrist Size Selection -->
+      <div class="sizes">
+        <span class="font-bold text-slate-700 py-4 pb-6">Wrist Size:</span> </br>
+        <button price="69" class="size-btn w-[60px] h-[30px] border-2 border-slate-200 text-sm text-slate-700 px-4"  data-size="S">S <span></span></button>
+        <button price="79" class="size-btn w-[60px] h-[30px] border-2 border-slate-200 text-sm text-slate-700 px-4"  data-size="M">M</button>
+        <button price="89" class="size-btn w-[60px] h-[30px] border-2 border-slate-200 text-sm text-slate-700 px-4"  data-size="L">L</button>
+        <button price="99" class="size-btn w-[60px] h-[30px] border-2 border-slate-200 text-sm text-slate-700 px-4"  data-size="XL">XL</button>
+      </div>
+      
+      <!-- Add to Cart -->
+
+      <div class="mt-2 flex items-center space-x-3">
+        <!-- Quantity -->
+        <div class="flex items-center border border-gray-300 rounded-md">
+          <button
+            id="decrement"
+            class="px-3 py-1 text-gray-500 hover:bg-gray-200 focus:outline-none"
+          >
+            &#8211;
+          </button>
+          <span id="quantity" class="px-4 py-1">0</span>
+          <button
+            id="increment"
+            class="px-3 py-1 text-gray-500 hover:bg-gray-200 focus:outline-none"
+          >
+            +
+          </button>
+        </div>
+      <div class="add-to-cart">
+        <button  class="bg-blue-500 text-white text-md px-4 py-1 rounded-sm " id="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <button id="heart-btn" class="text-gray-400 hover:text-red-500">
+        &#10084;
+      </button>
+    </div>
+  </div>
+
+  <!-- Floating Cart Button -->
+  <div id="floating-cart">
+    <button class="text-slate-800 py-1 px-2 font-semibold" id="checkout-btn">Checkout</button>
+    <span class="w-[1.2rem] h-[1.2rem] bg-white rounded-md text-sm mx-2 text-slate-700 flex justify-center items-center font-semibold" id="cart-count">0</span>
+  </div>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="hidden">
+    <div class="modal-content">
+      <h2>Your Cart</h2>
+      <table id="cart-items">
+        <tr>
+          <th>Item</th>
+          <th>Color</th>
+          <th>Size</th>
+          <th>Qty</th>
+          <th>Price</th>
+        </tr>
+        <!-- Dynamic Cart Rows -->
+      </table>
+      <p class="py-2 font-bold">Total: $<span id="total-price">0.00</span></p>
+      <div class="flex w-full justify-between items-center my-2">
+        <button class="bg-blue-600 flex justify-center items-center px-4 py-1 rounded-md text-white font-semibold" id="continue-shopping">Continue Shopping</button>
+      <button class="bg-blue-600 flex justify-center items-center px-4 py-1 rounded-md text-white font-semibold" id="continue-shopping">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+  colorButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    colorButtons.forEach((button) => {
+      button.classList.remove("border-[3px]", "border-indigo-500","rounded-full");
+    });
+    btn.classList.add("border-[3px]", "border-indigo-500","rounded-full");
+
+  });
+});
+
+      sizeButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          sizeButtons.forEach((b) => b.classList.remove("border-[3px]", "border-indigo-500"));
+          btn.classList.add("border-[3px]", "border-indigo-500");
+          
+          
+        });
+      });
+      const incrementBtn = document.getElementById("increment");
+      const decrementBtn = document.getElementById("decrement");
+      const quantityDisplay = document.getElementById("quantity");
+      const totalDisplay = document.getElementById("total");
+      let quantity = 0;
+
+      
+
+      incrementBtn.addEventListener("click", () => {
+        quantity++;
+        quantityDisplay.textContent = quantity;
+        updateTotal();
+      });
+
+      decrementBtn.addEventListener("click", () => {
+        if (quantity > 0) {
+          quantity--;
+          quantityDisplay.textContent = quantity;
+          updateTotal();
+        }
+      });
+  </script>
+</body>
+</html>
