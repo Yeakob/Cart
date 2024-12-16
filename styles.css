@@ -8,6 +8,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 100px;
+    overflow-x: hidden;
     
   }
   
@@ -20,7 +21,13 @@ body {
     justify-content: space-between;
     align-items: center;
   }
-  
+
+  @media (max-width: 768px) {
+    .product-container {
+      flex-direction: column;
+    }
+  }
+
   .product-image img {
     width: 450px;
     height: 500px;
@@ -48,7 +55,8 @@ body {
   #floating-cart {
     position: fixed;
     bottom: 20px;
-    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: #FFBB5A;
     color: white;
     padding-top: 2px;
